@@ -131,7 +131,7 @@
   dependencies:
     source-map "^0.6.1"
 
-"@types/webpack-dev-server@^3.1.1":
+"@types/webpack-dev-server@*", "@types/webpack-dev-server@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@types/webpack-dev-server/-/webpack-dev-server-3.1.1.tgz#12ae26194b3e1b8a317559592659921f282583c2"
   integrity sha512-TnEQPT+OZjWV2kRyNs0RPMDQmBCiLrr/ZhKSgFNF6aM4O/moUAfo2Yu3MIMUjoi3aE/02RH1iVR+Y6mWmXOlVA==
@@ -141,7 +141,7 @@
     "@types/serve-static" "*"
     "@types/webpack" "*"
 
-"@types/webpack@*", "@types/webpack@^4.4.15":
+"@types/webpack@*":
   version "4.4.15"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.15.tgz#156109efe99aaf81238b257a64c55b4552323a4c"
   integrity sha512-6+RYaRk9LDdPqKW8j53vD6Ku/PyOvG8a+NDPYw6SJFvLoVWrpoU4nG1p0cVVGFu9pzbL22veX/SltewcKh1hug==
@@ -149,6 +149,17 @@
     "@types/node" "*"
     "@types/tapable" "*"
     "@types/uglify-js" "*"
+    source-map "^0.6.0"
+
+"@types/webpack@^4.4.16":
+  version "4.4.16"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.16.tgz#40f9bba401edcd65a56e86cfeadfea75ed841c4b"
+  integrity sha512-kE6elo5EaC11mB94xezvAH2vwec8+vsx9bzacIZgIWn7ITShEXE/j8KX4LJ5ssCAYPaXMZchbVmpycDwJ84gtA==
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    "@types/webpack-dev-server" "*"
     source-map "^0.6.0"
 
 "@webassemblyjs/ast@1.7.8":
@@ -4270,10 +4281,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.2.tgz#c03a5d16f30bb60ad8bb6fe8e7cb212eedeec950"
-  integrity sha512-gOoGJWbNnFAfP9FlrSV63LYD5DJqYJHG5ky1kOXSl3pCImn4rqWy/flyq1BRd4iChQsoCqjbQaqtmXO4yCVPCA==
+typescript@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.3.tgz#01b70247a6d3c2467f70c45795ef5ea18ce191d5"
+  integrity sha512-+81MUSyX+BaSo+u2RbozuQk/UWx6hfG0a5gHu4ANEM4sU96XbuIyAB+rWBW1u70c6a5QuZfuYICn3s2UjuHUpA==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.5"
@@ -4374,10 +4385,10 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-url-loader@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-1.1.1.tgz#4d1f3b4f90dde89f02c008e662d604d7511167c1"
-  integrity sha512-vugEeXjyYFBCUOpX+ZuaunbK3QXMKaQ3zUnRfIpRBlGkY7QizCnzyyn2ASfcxsvyU3ef+CJppVywnl3Kgf13Gg==
+url-loader@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
+  integrity sha512-dXHkKmw8FhPqu8asTc1puBfe3TehOCo2+RmOOev5suNCIYBcT626kxiWg1NBVkwc4rO8BGa7gP70W7VXuqHrjg==
   dependencies:
     loader-utils "^1.1.0"
     mime "^2.0.3"
