@@ -13,12 +13,14 @@ const config: webpack.Configuration = {
     rules: [
       {
         test: /\.ts$/,
-        use: [{
-          loader: 'ts-loader',
-          options: {
-            transpileOnly: true,
-          }
-        }],
+        use: [
+          {
+            loader: 'ts-loader',
+            options: {
+              transpileOnly: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(?:jpg|png)$/,

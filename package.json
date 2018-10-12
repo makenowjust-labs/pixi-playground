@@ -1,4 +1,9 @@
 {
+  "private": true,
+  "name": "pixi-playground",
+  "license": "MIT",
+  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
+  "version": "0.0.0",
   "scripts": {
     "build": "maid build",
     "dev": "maid dev",

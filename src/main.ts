@@ -5,8 +5,8 @@ declare namespace global {
 }
 
 const main = async () => {
-  const {default: image250path} = await import(/* webpackChunkName: "assets" */'./assets/images/250.jpg');
-  const {default: image500path} = await import(/* webpackChunkName: "assets" */'./assets/images/500.jpg');
+  const {default: image250path} = await import(/* webpackChunkName: "assets" */ './assets/images/250.jpg');
+  const {default: image500path} = await import(/* webpackChunkName: "assets" */ './assets/images/500.jpg');
 
   const app = new PIXI.Application();
   document.body.appendChild(app.view);
