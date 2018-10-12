@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "build": "maid build",
+    "dev": "maid dev",
+    "format": "maid lint --fix",
+    "lint": "maid lint",
+    "typecheck": "maid typecheck"
+  },
+  "dependencies": {
+    "pixi.js": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.0",
+    "@types/pixi.js": "^4.8.1",
+    "@types/webpack": "^4.4.15",
+    "@types/webpack-dev-server": "^3.1.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "maid": "^0.3.0",
+    "prettier": "^1.14.3",
+    "prettier-package-json": "^2.0.1",
+    "ts-loader": "^5.2.1",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.6.0",
+    "typescript": "^3.1.2",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
